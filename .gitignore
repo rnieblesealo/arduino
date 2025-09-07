@@ -1,0 +1,37 @@
+# Arduino build files
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Arduino libraries
+/libraries/*
+/libraries/**/examples/*
+/libraries/**/src/*.o
+/libraries/**/src/*.d
+
+# Arduino IDE specific files
+*.pde
+*.ino~
+*.ino.swp
+*.ino.bak
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User-specific files
+*.local
+*.prefs
+*.json
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db

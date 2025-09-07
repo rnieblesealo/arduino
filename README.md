@@ -1,6 +1,6 @@
 # Arduino Notes
 
-### Physics 2 Review
+### Physics/Electrical Stuff 
 
 - Transducer = Converts x type of energy into electrical and vice-versa
     - Sensor = Converts x type of energy into electrical only
@@ -14,6 +14,25 @@
 - Resistance = How much a component resists flow of electrical energy
 - Polarized Component = Electricity flows in 1 direction 
 
-### My Questions
+### Components
+
+LED
+- Long leg (anode) = connects to power
+- Short leg (cathode) = connects to ground
+
+Resistor
+- Sucks up and converts some electricity to heat
+> Allows us to control electricity going in so components don't get too much 
+
+Switch
+- Allows us to break the circuit
+
+# My Questions
 
 - How can there be points in the board which we can deem ground? How can we control that?
+
+# Other Notes
+
+### Bash Scripting
+
+- `zsh` and `bash` differ a bit in syntax; make sure we always use bash by shebanging `#!/bin/bash`
