@@ -14,7 +14,7 @@ fi
 
 SKETCH_DIR="$1"
 BOARD_NAME="arduino:avr:uno"
-BOARD_PORT_PATH="/dev/ttyACM0"
+BOARD_PORT_PATH="/dev/cu.usbmodem11101"
 
 # Compile the sketch 
 arduino-cli compile \

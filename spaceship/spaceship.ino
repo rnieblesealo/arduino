@@ -12,6 +12,10 @@ void setup() {
 void loop() {
   switchState = digitalRead(2);
 
+  // Keep first LED on
+  // When button pressed, flash the other 2 LEDS before turning the first one back on again
+  // Pretty easy!
+  
   if (switchState == LOW) {
     digitalWrite(3, HIGH); 
     digitalWrite(4, LOW);  
